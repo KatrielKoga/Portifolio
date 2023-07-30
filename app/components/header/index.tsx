@@ -5,10 +5,10 @@ import './styles.css';
 export default function Header() {
 	const [hambOpen, setHambOpen] = useState(false);
 	return (
-		<header className="flex flex-row justify-between items-center px-7 py-3">
+		<header className="flex flex-row justify-between items-center px-2 md:px-7 py-3">
 			<Logo />
 			<button
-				className="button-three"
+				className="button"
 				aria-expanded={hambOpen}
 				onClick={() => setHambOpen(!hambOpen)}
 			>

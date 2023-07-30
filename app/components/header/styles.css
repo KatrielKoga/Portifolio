@@ -1,34 +1,34 @@
-.button-three {
+.button {
 	--button-color: #0878ba;
 	overflow: hidden;
 	background: transparent;
 	border-radius: 1rem;
 }
-.button-three[aria-expanded='true'] .hamburger {
+.button[aria-expanded='true'] .hamburger {
 	translate: 4px -4px;
 	rotate: 0.125turn;
 }
-.button-three .hamburger {
+.button .hamburger {
 	transition: translate 1s, rotate 1s;
 }
 
-.button-three .line {
+.button .line {
 	transition: 1s;
 	stroke-dasharray: 60 31 60 300;
 }
 
-.button-three[aria-expanded='true'] .line {
+.button[aria-expanded='true'] .line {
 	stroke-dasharray: 60 105 60 300;
 	stroke-dashoffset: -90;
 }
 
 @media (min-width: 700px) {
-	.button-three:hover {
+	.button:hover {
 		transform: translate(-1px, -1px);
 		box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.3);
 	}
 
-	.button-three:active {
+	.button:active {
 		box-shadow: none;
 		transform: translate(1px, 1px);
 	}
