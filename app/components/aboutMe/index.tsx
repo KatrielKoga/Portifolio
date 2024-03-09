@@ -9,19 +9,28 @@ export default function AboutMe() {
 				</div>
 				About_me.sh
 			</div>
-			<div className="font-mono py-4 px-5 text-green-600 bg-white">
+			<div className="font-mono py-4 px-5 text-green-600 bg-white pb-8">
 				<span className="text-blue-500 font-bold ">~$ {'>'}</span> whoami <br />
-				<span className="text-blue-500 font-bold ">~$ {'>'}</span> Ex
-				adipisicing ut enim ad incididunt. Tempor aliqua laborum cupidatat
-				adipisicing ex aliquip cillum aute ea. Esse magna fugiat commodo enim
-				consectetur commodo. Nisi commodo dolor officia velit dolor anim ipsum.
-				Officia adipisicing et duis id laboris aliquip duis nisi laboris non
-				sunt laboris. Quis deserunt magna dolore et. Ipsum consequat esse
-				proident occaecat duis duis. Anim nisi ea enim deserunt mollit et. Id
-				sit id velit reprehenderit enim nulla ex excepteur aute qui Lorem
-				proident anim. Adipisicing duis non mollit fugiat laborum incididunt
-				tempor laboris sint eiusmod. Commodo amet culpa voluptate nulla veniam
-				id.
+				<span className="text-blue-500 font-bold ">~$ {'>'}</span> I'm Katriel
+				Koga, a passionate and dedicated full-stack software developer. With a
+				strong background in various technologies, including{' '}
+				<span className="text-blue-500 font-bold">JavaScript</span>,{' '}
+				<span className="text-blue-500 font-bold">Node.js</span>,{' '}
+				<span className="text-blue-500 font-bold">React</span>,{' '}
+				<span className="text-blue-500 font-bold">HTML</span>,{' '}
+				<span className="text-blue-500 font-bold">CSS</span>,{' '}
+				<span className="text-blue-500 font-bold">SQL</span>, and{' '}
+				<span className="text-blue-500 font-bold">MongoDB</span>, I strive to
+				craft robust and efficient solutions for complex technological
+				challenges.
+				<br /> My journey in the world of software development has been driven
+				by a perpetual quest for knowledge and a relentless curiosity for
+				emerging technologies. <br />I find great joy in mastering new tools and
+				methodologies, integrating them into my work to create innovative and
+				cutting-edge solutions. <br />
+				Feel free to reach out to me for collaboration, consultation, or just to
+				exchange ideas. Let's build the future together through the power of
+				code.<span className="animate-ping duration-100 text-blue-500">|</span>
 			</div>
 		</div>
 	);

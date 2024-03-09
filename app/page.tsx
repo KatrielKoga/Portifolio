@@ -1,6 +1,7 @@
 import AboutMe from './components/aboutMe';
 import { Share_Tech_Mono } from 'next/font/google';
 import ComingSoon from './components/inConstruction';
+import Contact from './components/contact';
 
 const major_Mono_Display = Share_Tech_Mono({
 	subsets: ['latin'],
@@ -43,7 +44,7 @@ export default function Page() {
 				>
 					Get in touch
 				</h2>
-				<ComingSoon />
+				<Contact />
 			</section>
 		</div>
 	);
